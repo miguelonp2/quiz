@@ -1,0 +1,27 @@
+body{
+    background-color: #97DCDF;
+    font-family: 'Yeon Sung', cursive;
+}
+#welcome{
+    display: flex;
+    margin-top: 5%;
+    flex-direction: column;
+    align-items: center;
+}
+#welcome img{
+    width: calc(300px+10%);
+}
+#welcome button{
+    font-family: 'Yeon Sung', cursive;
+    font-size: large;
+    border: 0;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #FCE374;
+}
+#welcome h1{
+
+    font-size: 35px;
+    color: white;
+
+}
