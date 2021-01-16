@@ -34,22 +34,33 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 5%;
 }
 
 #answers{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-around;
+    margin-top: 2%;
 }
 
 .answer{
-    width: 150px;
+    width: 300px;
     display: flex;
-    height: 50px;
+    height: 60px;
     text-align: center;
     background-color: #FCE374;
     justify-content: center;
     align-items: center;
     margin: 10px;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 1px;
+
+}
+.answersGroup{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
