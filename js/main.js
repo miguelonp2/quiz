@@ -32,12 +32,6 @@ const preguntas = {
       },
   ],
 };
-/*  let questionText = preguntas.preguntas[questionNumber].titulo;
-    let answerText1 = preguntas.preguntas[questionNumber].respuestas[0];
-    let answerText2 = preguntas.preguntas[questionNumber].respuestas[1];
-    let answerText3 = preguntas.preguntas[questionNumber].respuestas[2];
-    let answerText4 = preguntas.preguntas[questionNumber].respuestas[3];
-    let correct = preguntas.preguntas[questionNumber].respuestaCorrecta; */
 
 let BODY = document.querySelector("body");
 let welcome = document.querySelector("#welcome");
@@ -61,6 +55,7 @@ class Question {
     this.value = 4;
   }
   appear() {
+    let chronometer = new CountDown();
     let questionWrapper = document.createElement("section");
     questionWrapper.id = "questionWrapper";
     BODY.appendChild(questionWrapper);
